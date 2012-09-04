@@ -26,7 +26,7 @@ func userShow(w http.ResponseWriter, r *http.Request) {
 
 		return
 	}
-
+	w.Header().Set("Content-type", "application/x-protobuf")
 	w.Write(b)
 }
 
