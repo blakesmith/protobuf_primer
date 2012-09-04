@@ -1,0 +1,10 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    ruby_protobuf (0.4.11)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ruby_protobuf
